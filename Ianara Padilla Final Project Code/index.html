@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> "Pick Me Up" Quote Generator</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway|Allura|Cabin:700|Rosario' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="PickMeUp.css">
+</head>
+<body>
+<header>
+	<h1 class="heading"> "Pick Me Up" Quote Generator</h1>
+</header>
+
+
+Name: <input type="text" name="yourname" id="yourname"><br />
+<input type="submit" name="submit" onclick="getName()"/><br />
+
+<div class="randquote">
+	<div id="welcomemsg"> </div>
+	<span id="randquote" class="randquote"></span>
+</div>
+
+<button onclick="generateSad()">Sad</button>
+<button onclick="generateConfused()">Confused</button>
+<button onclick="generateMotivated()">Motivated</button>
+<button onclick="generateAngry()">Angry</button>
+<button onclick="generateRandom()">Random</button>
+<footer>
+  <h3> Feel Better! Thank You!</h3>
+</footer>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
